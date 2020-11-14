@@ -1,0 +1,414 @@
+@font-face{
+    font-family: "Open Sans";
+    src: url(../fonts/OpenSans-Bold.ttf); 
+    font-weight: 700; 
+    font-style: normal;  
+}
+@font-face{
+    font-family: "Open Sans";
+    src:url(../fonts/OpenSans-BoldItalic.ttf);
+    font-weight: 700;
+    font-style: italic;
+}
+@font-face{
+    font-family: "Open Sans";
+    src: url(../fonts/OpenSans-ExtraBold.ttf);
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "Open Sans";
+    src: url(../fonts/OpenSans-ExtraBoldItalic.ttf);
+    font-style: italic;
+    font-weight: 800;
+}
+
+@font-face{
+    font-family: "Open Sans";
+    src: url(../fonts/OpenSans-Italic.ttf);
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face{
+    font-family: "Open Sans";
+    src: url(../fonts/OpenSans-Light.ttf);
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face{
+    font-family: "Open Sans";
+    src: url(../fonts/OpenSans-LightItalic.ttf);
+    font-weight: 300;
+    font-style: italic;
+
+}
+
+@font-face{
+    font-family: "Open Sans";
+    src: url(../fonts/OpenSans-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "Open Sans";
+    src: url(../fonts/OpenSans-SemiBold.ttf);
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "Open Sans";
+    src: url(../fonts/OpenSans-SemiBoldItalic.ttf);
+    font-weight: 600;
+    font-style: italic;
+}
+
+body{
+    display:flex;
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans";
+}
+
+.container{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1579px;
+    background-color:rgb(253, 253, 253);
+}
+
+/* Начало первого блока */
+header{
+    padding-top: 29px;
+    /* margin-top: 29px; */
+    background-color: rgba(246, 242, 242, 1);
+    display: block;
+    width: 1579px;
+    height: 688px;
+}
+
+.main-menu{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1249px;
+    height: 89px;
+    background-color:rgba(0, 0, 0, 0.8);
+}
+
+.menu-block{
+    display: flex;
+    margin-left: 41px;
+    width: 90px;
+    height: 89px;
+}
+.menu-block:hover{
+    background-color: rgba(255, 63, 64, 1);
+}
+
+.menu-block-link{
+   margin-left: auto;
+   margin-right: auto;
+   display: flex;
+   align-items: center;
+   text-decoration: none;
+   color: rgba(224, 224, 224, 1);
+   font-family: "Open Sans";
+   font-size: 14px;
+   text-transform: uppercase;
+}
+
+.offer{
+    display: flex;
+    margin-top: 101px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    width: 1253px;
+}
+
+.offer-text{
+    margin-left: 0;
+    width: 50%;
+}
+.offer-text h1{
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 72px;
+    font-size: 60px;
+}
+.offer-text p{
+    margin-top: 36px;
+    font-family: "Open Sans";
+    font-size: 16px;
+}
+.offer-text button{
+    margin-top: 78px;
+    border: none;
+    width: 227px;
+    height: 55px;
+    background-color:rgba(255, 63, 64, 1);
+}
+.offer-text button a{
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Open Sans";
+}
+.offer-slider{
+    margin-left: 70px;
+    
+}
+
+
+/* Начало второго блока */
+.main-content {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1284px;
+    padding-bottom: 100px;
+}
+
+.main-text{
+    width: 50%;
+    margin-top: 107px;
+    margin-left: 0;
+}
+
+.main-text h2 {
+    text-transform: uppercase;
+    line-height: 55px;
+    font-size: 42px;
+    font-family: "Open Sans";
+}
+.main-text p{
+    font-size: 16px;
+    font-family: "Open Sans";
+    font-style: normal;
+}
+
+.main-text button{
+    margin-top: 64px;
+    width: 227px;
+    height: 55px;
+    background-color: rgb(253, 253, 253);
+    border-color: rgba(255, 0, 0, 1);
+    border-radius: 7px;
+}
+.main-text a{
+    text-decoration: none;
+    color: rgba(255, 45, 45, 1);
+    font-size: 18px;
+    font-family: "Open Sans";
+}
+
+.main-services{
+    margin-left: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin-top: 108px;
+}
+
+.services-item{
+    display: block;
+    align-items: center;
+    margin-right: 20px;
+    width: 300px;
+} 
+
+.container-line{
+   background-color: rgba(236, 236, 236, 1);
+    width: 1251px;
+    height: 5px;
+    border: rgba(236, 236, 236, 1);
+}
+
+/* Начало третьего блока_ Продукция */
+.products{
+    display: block;
+    width: 1579px;
+    margin-top: 104px;
+}
+
+.products-box{
+    padding: 20px;
+    width: 1254px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.products-box h2{
+    margin-top: 0;
+    text-align: center;
+    font-size: 42px;
+    text-transform: uppercase;
+}
+.products-box p{
+    text-align: center;
+    font-size: 16px;
+}
+
+.products-box hr{
+    margin-top: 42px;
+    width: 134px;
+    height: 5px;
+    background-color: rgba(255, 45, 45, 1);
+    border: rgba(255, 45, 45, 1);
+}
+
+.products-box-menu{
+    display: flex;
+    width: 922px;
+    text-transform: uppercase;
+    margin-left:auto;
+    margin-right: auto;
+    
+}
+
+.products-box-menu a{
+    margin-top: 86px;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    font-size: 22px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.products-box-menu a:hover{
+    color: rgba(255, 45, 45, 1);
+}
+
+.products-images{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1254px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+.img-prod{
+    margin-bottom: 1.2em;
+}
+
+/* Начало четвертого блока_ Команда */
+
+.team{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1268px;
+    height: 900px;
+
+}
+
+.team h2{
+    margin-left: 20px;
+    margin-bottom: 34px;
+    font-size: 42px;
+    text-transform: uppercase;
+}
+
+
+
+.team p{
+    margin-left:20px ;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.team hr{
+     margin-left: 20px;
+     margin-top: 42px;
+     margin-bottom: 67px;
+     width: 134px;
+     height: 5px;
+     background-color: rgba(255, 45, 45, 1);
+     border: rgba(255, 45, 45, 1);
+}
+
+.team-lead{
+    margin-left: 20px;
+
+}
+
+.team-block-img{
+    margin-left: 70px;
+}
+.team-block-img-pict{
+    margin-right: 10px;
+}
+.team-block-img p{
+    width: 662px;
+    margin-left: 0px;
+}
+
+.team-block-img h3{
+    font-size: 30px;
+    margin-left: 0;
+}
+.team-content{
+    display: flex;
+    padding-bottom: 0;
+      /* background-color: orange; */
+}
+
+/* Начало пятого блока_ Подпишись */
+
+.subscribe{
+    display: block;
+    background-color:rgba(45, 45, 45, 1);
+    width: 1579px;
+    height: 416px;
+    margin-bottom: 70px;
+    padding-top: 100px;
+}
+
+.subscribe_h2{
+    font-size: 42px;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    margin-bottom: 0%;
+   
+}
+
+.subscribe_p{
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 16px;
+}
+
+.subscribe_form{
+    text-align: center;
+    margin-top: 60px;
+    
+}
+
+#submit{
+    color: white;
+    width: 217px;
+    height: 85px;
+    background-color:rgba(255, 63, 64, 1);
+    border:none;
+    font-size: 18px;
+    font-family: "Open Sans";
+    text-transform: uppercase;
+    
+}
+
+#mail{
+    width: 524px;
+    height: 80px;
+    margin-right: 19px;
+    font-size: 16px;
+   padding-left: 38px;
+   font-family: "Open Sans";
+   
+}
